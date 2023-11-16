@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+:root {
+  --accent-color: firebrick;
+  --main-color: #220000;
+}
+
+header {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-color);
+  background: linear-gradient(45deg, var(--main-color) 0%, var(--accent-color) 100%);
+  font-family: "Bungee", sans-serif;
+}
+
+.heading {
+  margin-top: calc(100vh / 2);
+  position: absolute;
+  top: 0;
+  font-size: 30vh;
+  color: transparent;
+  transform: translateY(-50%);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--accent-color);
+}
+
+.heading:first-child {
+  color: var(--accent-color);
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* ------------- 🔥 ------------ */
+/* ----------------------------- */
+/* ----------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 1.66;
+  font-weight: bold;
+  filter: blur(3px)
+}
+
+.container {
+  padding: 1rem;
+  max-width: 400px;
+  margin: 4rem auto;
+}
